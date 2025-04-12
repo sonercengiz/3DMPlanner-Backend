@@ -1,0 +1,54 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtualenv
+venv/
+.env
+.env.*
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# OS / Mac
+.DS_Store
+
+# Alembic
+alembic/versions/
+
+# Database or secrets
+*.sqlite3
+*.db
+*.log
+*.pem
+
+# Python tooling
+*.egg-info/
+dist/
+build/
+
+# Test reports
+htmlcov/
+.coverage
+.cache/
+pytest_cache/
+
+# Migrations
+*.bak
+*.orig
+*.swp
+
+# Exported data or temp
+*.csv
+*.xlsx
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# Optional: if you're using mypy/black reports
+.mypy_cache/
+.pytest_cache/
