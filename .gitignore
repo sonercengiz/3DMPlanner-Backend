@@ -6,7 +6,6 @@ __pycache__/
 # Virtualenv
 venv/
 .env
-.env.*
 
 # VS Code / PyCharm
 .vscode/
@@ -16,7 +15,7 @@ venv/
 .DS_Store
 
 # Alembic
-alembic/versions/
+alembic/versions/*
 
 # Database or secrets
 *.sqlite3
